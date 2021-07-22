@@ -29,16 +29,16 @@ jobs:
           unzipPathExtension: ""
         - generateCommand: '-l node -s webRtc.json'
           repoName: 'node-webrtc'
-          unzipPathExtension: "WebRtc/"
+          unzipPathExtension: "packages/web-rtc/"
         - generateCommand: '-l node -s voice.json'
           repoName: 'node-voice'
-          unzipPathExtension: "Voice/"
+          unzipPathExtension: "packages/voice/"
         - generateCommand: '-l node -s multiFactorAuth.json'
           repoName: 'node-mfa'
-          unzipPathExtension: "MultiFactorAuth/"
+          unzipPathExtension: "packages/multi-factor-auth/"
         - generateCommand: '-l node -s messaging.json'
           repoName: 'node-messaging'
-          unzipPathExtension: "Messaging/"
+          unzipPathExtension: "packages/messaging/"
         #- generateCommand: '-l node -s dashboard.json'
         #  repoName: 'node-numbers'
         #  unzipPathExtension: "Dashboard/"
